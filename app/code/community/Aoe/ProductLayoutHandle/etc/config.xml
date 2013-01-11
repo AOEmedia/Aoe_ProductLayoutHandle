@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Aoe_ProductLayoutHandle>
+            <version>0.1.0</version>
+        </Aoe_ProductLayoutHandle>
+    </modules>
+
+    <global>
+        <helpers>
+            <aoe_productlayouthandle>
+                <class>Aoe_ProductLayoutHandle_Helper</class>
+            </aoe_productlayouthandle>
+            <catalog>
+                <rewrite>
+                    <product_view>Aoe_ProductLayoutHandle_Helper_Product_View</product_view>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+    <default>
+        <catalog>
+            <frontend>
+                <use_product_layout_handle>1</use_product_layout_handle>
+            </frontend>
+        </catalog>
+    </default>
+</config>

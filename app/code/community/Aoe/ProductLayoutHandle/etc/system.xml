@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <frontend>
+                    <fields>
+                        <use_product_layout_handle translate="label">
+                            <label>Use separate layout update handles for each product</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>350</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <comment>Setting to NO will increase performance (less cache entries)</comment>
+                        </use_product_layout_handle>
+                    </fields>
+                </frontend>
+            </groups>
+        </catalog>
+    </sections>
+</config>
